@@ -1,0 +1,13 @@
+{
+    "name": "Chai Nft",
+    "symbol": "gulab",
+    "description": "A test for our chai NFT.",
+    "seller_fee_basis_points": 5,
+    "external_url": "",
+    "edition": "",
+    "background_color": "000000",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Masala_Chai.JPG"
+}
+
+
+
