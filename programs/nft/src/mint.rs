@@ -2,20 +2,15 @@ use {
     anchor_lang::{
         prelude::*,
         solana_program::program::invoke,
-        system_program,
     },
     anchor_spl::{
-        associated_token,
         token,
-        token::{Token, InitializeMint, MintTo, Transfer},
+        token::{Token, MintTo},
     },
     mpl_token_metadata::{
-        ID as TOKEN_METADATA_ID,
-        instruction as token_instruction,
         instruction:: {create_metadata_accounts_v3,create_master_edition_v3}
     },
 };
-
 
     pub fn mint(
         ctx: Context<MintNft>,
